@@ -21,6 +21,8 @@ function preload(){
 function setup(){
   
   createCanvas(windowWidth,windowHeight);
+  
+
 // Movendo plano de fundo
 path=createSprite(200,200);
 path.addImage(pathImg);
